@@ -1,0 +1,197 @@
+<!-- Created by Amardeep kesharwani -->
+
+
+
+<!--
+--------------------------------------
+
+app name : Web Status || Web Stories,
+created by : Amardeep Kesarwani
+date : 01-Dec-2020
+
+_______________________________
+
+#
+intelligent vo nhi jo school me top kare
+intelligent vo hai jo Life.  me top kare
+
+##
+duniya vahi log badalte hai 
+Jinse duniya Ko Koi ummid nhi hoti
+
+###
+Har din mehnat karo aur Special ban kar raho
+agar aam bankar rahoge to duniya Achar bana degi😅
+
+
+--------------------------------------
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="author" content="Amardeep Kesarwani" /> 
+<title>Web Status || Web Stories</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<style>/* Created by Amardeep kesharwani */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-weight:300;
+line-height:1.5;
+font-size:1rem;
+background-color: black;
+}
+
+img {
+ width:100%;
+}
+.loader {
+ position:fixed;
+ top:0;
+ left:0;
+ bottom:0;
+ height:100vh;
+ width:100%;
+ background:#0E111F;
+ z-index:9;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.loader h2 {
+ color:#fff;
+ margin-top:20px;
+ animation: blink 2s linear infinite;
+}
+@keyframes blink{
+ 0%,100%{
+  opacity:0;
+ }
+ 50%{
+  opacity:1;
+ }
+}
+.stories {
+position:relative;
+height:100vh;
+width:100%;
+max-width:360px;
+margin:auto;
+background:#000;
+display:flex;
+overflow-x:hidden;
+}
+.indicator {
+ position:absolute;
+ top:5px;
+ width:100%;
+ left:0;
+ display:flex;
+ height:5px;
+ padding:1px 2px;
+}
+.indicator span {
+ position:relative;
+ display:block;
+ background:rgba(255,254,255,0.5);
+ flex:1;
+ height:2px;
+ margin:2px;
+ border-radius:1px;
+ overflow:hidden;
+}
+.indicator span > span {
+ position:absolute;
+ display:inline-block;
+ top:-2px;
+ left:-2px;
+ width:0;
+ height:100%;
+ background:#fff;
+ border-radius:1px;
+ transition:0.3s ease;
+}
+.story {
+ height:100vh;
+ width:100%;
+ min-width:360px;
+ background:var(--bg), linear-gradient(to bottom, rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+ background-size:cover;
+ background-position:center center;
+ transition:0.3s cubic-bezier(0.4,0.0,1,1);
+ text-align:center;
+ display:flex;
+ align-items:flex-end;
+}
+.caption {
+ color:#fff;
+ width:100%;
+ padding-bottom: 100px;
+ padding-left: 20px;
+ padding-right: 20px;
+ background:rgba(0,0,0,0.6);
+ user-select:none;
+}
+.tap {
+ position:absolute;
+ height:50px;
+ width:50px;
+ top:40%;
+ left:80%;
+ border-radius:50%;
+ background:rgba(255,255,255,0.5);
+ border:6px solid rgba(255,255,255,0.7);
+ opacity:0;
+ transition:0.3s ease;
+}
+</style>
+
+</head>
+<body>
+<div class="loader" >
+ <img src="https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-078cdcb3f1d3.gif" alt="wait..." >
+ <h2>Loading...</h2>
+</div>
+<section class="stories" >
+  <div class="tap" ></div>
+  <div class="indicator" >
+    <span><span></span></span>
+    <span><span></span></span>
+    <span><span></span></span>
+  </div>
+  <!-- Amardeep Kesarwani -->
+  <div class="story" style="--bg:url(Gautam.jpg)" >
+    <div class="caption" >
+     <b>🥳 Happy🎂🧁Birthday🍨Gautam 🍻</b>
+    </div>
+  </div>
+  <div class="story" style="--bg:url(Gautam1.jpg)" >
+    <div class="caption" >
+     <b>🥳 Happy🎂🧁Birthday🍨Gautam 🍻</b>
+    </div>
+  </div>
+  <div class="story" style="--bg:url(Gautam2.jpg)" >
+    <div class="caption" >
+<b>🥳 Happy🎂🧁Birthday🍨Gautam 🍻</b>
+    </div>
+  </div>
+</section>
+<!-- Amardeep Kesarwani -->
+
+<!-- script -->
+<script>
+   var _0xa97a=["\x2E\x73\x74\x6F\x72\x69\x65\x73","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x2E\x74\x61\x70","\x6F\x66\x66\x73\x65\x74\x57\x69\x64\x74\x68","\x2E\x73\x74\x6F\x72\x79","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x6C\x65\x6E\x67\x74\x68","\x6D\x69\x6E\x57\x69\x64\x74\x68","\x73\x74\x79\x6C\x65","\x6F\x70\x61\x63\x69\x74\x79","\x33\x36\x30\x70\x78","\x63\x6C\x69\x63\x6B","\x70\x61\x67\x65\x58","\x74\x6F\x70","\x70\x61\x67\x65\x59","\x70\x78","\x6C\x65\x66\x74","\x73\x63\x61\x6C\x65\x28\x31\x29","\x73\x63\x61\x6C\x65\x28\x32\x29","\x61\x6E\x69\x6D\x61\x74\x65","\x2E\x69\x6E\x64\x69\x63\x61\x74\x6F\x72\x20\x73\x70\x61\x6E\x20\x3E\x20\x73\x70\x61\x6E","\x70\x61\x75\x73\x65","\x66\x6F\x72\x77\x61\x72\x64\x73","\x31\x30\x30\x25","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x74\x68\x65\x6E","\x66\x69\x6E\x69\x73\x68\x65\x64","\x6D\x61\x70","\x67\x65\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x73","\x61\x6C\x6C","\x72\x65\x6D\x6F\x76\x65","\x2E\x6C\x6F\x61\x64\x65\x72","\x74\x6F\x75\x63\x68\x73\x74\x61\x72\x74","\x74\x6F\x75\x63\x68\x65\x6E\x64","\x70\x6C\x61\x79","\x6C\x6F\x61\x64"];const stories=document[_0xa97a[1]](_0xa97a[0]);const tap=document[_0xa97a[1]](_0xa97a[2]);let indicatorAnim;let hafWidth=stories[_0xa97a[3]]/ 2;let i=0;let story=document[_0xa97a[5]](_0xa97a[4]);const next=()=>{if(i< story[_0xa97a[6]]- 1){story[i][_0xa97a[8]][_0xa97a[7]]= 0;story[i][_0xa97a[8]][_0xa97a[9]]= 0;i++;showIndicator()}};const prev=()=>{if(i> 0){story[--i][_0xa97a[8]][_0xa97a[7]]= _0xa97a[10];story[i][_0xa97a[8]][_0xa97a[9]]= 1;showIndicator()}};stories[_0xa97a[24]](_0xa97a[11],(_0xe888x9)=>{let _0xe888xa=_0xe888x9[_0xa97a[12]];tap[_0xa97a[8]][_0xa97a[13]]= _0xe888x9[_0xa97a[14]]+ _0xa97a[15];tap[_0xa97a[8]][_0xa97a[16]]= _0xe888xa+ _0xa97a[15];tap[_0xa97a[19]]([{opacity:1,transform:_0xa97a[17]},{opacity:0,transform:_0xa97a[18]}],{delay:200,duration:1000});let _0xe888xb=document[_0xa97a[5]](_0xa97a[20])[i];if(_0xe888xa< hafWidth- 50){indicatorAnim[_0xa97a[21]]();_0xe888xb[_0xa97a[19]]({width:0},{duration:100,fill:_0xa97a[22]});prev()}else {if(_0xe888xa> hafWidth+ 50){indicatorAnim[_0xa97a[21]]();_0xe888xb[_0xa97a[19]]({width:_0xa97a[23]},{duration:100,fill:_0xa97a[22]});next()}}});function showIndicator(){let _0xe888xb=document[_0xa97a[5]](_0xa97a[20])[i];indicatorAnim= _0xe888xb[_0xa97a[19]]([{width:0},{width:_0xa97a[23]}],{delay:100,duration:5000,fill:_0xa97a[22]});Promise[_0xa97a[29]](_0xe888xb[_0xa97a[28]]()[_0xa97a[27]]((_0xe888xd)=>{return _0xe888xd[_0xa97a[26]]}))[_0xa97a[25]](()=>{return next()})}const ready=()=>{document[_0xa97a[1]](_0xa97a[31])[_0xa97a[30]]();setTimeout(showIndicator(),3000)};stories[_0xa97a[24]](_0xa97a[32],()=>{return indicatorAnim[_0xa97a[21]]()});stories[_0xa97a[24]](_0xa97a[33],()=>{return indicatorAnim[_0xa97a[34]]()});window[_0xa97a[24]](_0xa97a[35],ready)
+</script>
+</body>
+</html>
