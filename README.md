@@ -1,1 +1,1 @@
-# Birthday_Status.github.io
+# Status.github.io
